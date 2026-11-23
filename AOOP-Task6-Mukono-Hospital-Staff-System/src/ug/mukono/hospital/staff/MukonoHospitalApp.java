@@ -29,5 +29,17 @@ public class MukonoHospitalApp {
             staff.performPatientCareDuty(activePatientCase);
         }
         System.out.println();
+
+        printAbstractionBenefits();
+    }
+
+    private static void printAbstractionBenefits() {
+        System.out.println("--- WHY ABSTRACTION MATTERS AT MUKONO HOSPITAL ---");
+        System.out.println("1. Organization: Shared fields (ID, name, department, weekly hours) and validation");
+        System.out.println("   live in one place instead of being duplicated across four separate classes.");
+        System.out.println("2. Consistency: Every staff role is guaranteed to expose getStaffProfile() and");
+        System.out.println("   implement performPatientCareDuty(...), so rosters and scheduling code stay uniform.");
+        System.out.println("3. Extensibility: Adding new roles (e.g., Radiologist, Physiotherapist) only");
+        System.out.println("   requires extending MedicalStaff without rewriting existing roster loops.");
     }
 }
