@@ -1,5 +1,7 @@
 package ug.mukono.hospital.staff;
-
+/**
+ * Laboratory role responsible for specimen handling, diagnostic panels, and lab reporting.
+ */
 public class LabTechnician extends MedicalStaff {
     private final String diagnosticSection;
 

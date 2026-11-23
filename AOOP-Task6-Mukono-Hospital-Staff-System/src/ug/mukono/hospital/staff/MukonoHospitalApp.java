@@ -1,7 +1,10 @@
 package ug.mukono.hospital.staff;
 
 import java.util.List;
-
+/**
+ * Application entry point demonstrating abstract base design, role polymorphism,
+ * and healthcare system extensibility for Mukono Hospital.
+ */
 public class MukonoHospitalApp {
     public static void main(String[] args) {
         System.out.println("        MUKONO HOSPITAL MEDICAL STAFF MANAGEMENT SYSTEM");

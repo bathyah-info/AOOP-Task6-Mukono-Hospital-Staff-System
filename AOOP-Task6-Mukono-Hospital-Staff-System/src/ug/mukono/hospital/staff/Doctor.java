@@ -1,5 +1,7 @@
 package ug.mukono.hospital.staff;
-
+/**
+ * Physician/doctor role responsible for clinical evaluation, diagnosis, and care plans.
+ */
 public class Doctor extends MedicalStaff {
     private final String specialization;
 

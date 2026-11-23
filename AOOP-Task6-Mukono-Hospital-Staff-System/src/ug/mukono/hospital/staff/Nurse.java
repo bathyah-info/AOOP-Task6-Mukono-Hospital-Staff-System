@@ -1,5 +1,7 @@
 package ug.mukono.hospital.staff;
-
+/**
+ * Nursing role responsible for ward monitoring, vitals tracking, and bedside patient care.
+ */
 public class Nurse extends MedicalStaff {
     private final String assignedWard;
 

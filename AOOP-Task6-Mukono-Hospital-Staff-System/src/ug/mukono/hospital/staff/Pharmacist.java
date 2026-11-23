@@ -1,5 +1,7 @@
 package ug.mukono.hospital.staff;
-
+/**
+ * Pharmacy role responsible for medication safety checks, dosage review, and dispensing.
+ */
 public class Pharmacist extends MedicalStaff {
     private final String dispensaryUnit;
 
